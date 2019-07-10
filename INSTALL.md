@@ -1,9 +1,13 @@
 # Installing the required software
 
-**IMPORTANT NOTE**:
-Installing GMT and its dependencies can be a difficult task even for experienced
-users (including the developers themselves). So **don't be discouraged** if you
-have any trouble or questions. [We're here to help you work through it!](#need-help)
+
+
+> 🚨 **IMPORTANT NOTE** 🚨
+> Installing GMT and its dependencies can be a difficult task even for experienced
+> users (including the developers themselves). So **don't be discouraged** if you
+> have any trouble or questions. [We're here to help you work through it!](#need-help)
+
+
 
 Please follow these instructions to install **GMT 6.0.0rc2** (rc = release candidate)
 and other software that will be used. Here is a summary of what you'll need:
