@@ -1,5 +1,10 @@
 # Installing the required software
 
+**IMPORTANT NOTE**:
+Installing GMT and its dependencies can be a difficult task even for experienced
+users (including the developers themselves). So **don't be discouraged** if you
+have any trouble or questions. [We're here to help you work through it!](#need-help)
+
 Please follow these instructions to install **GMT 6.0.0rc2** (rc = release candidate)
 and other software that will be used. Here is a summary of what you'll need:
 
@@ -12,10 +17,11 @@ and other software that will be used. Here is a summary of what you'll need:
   animations.
 * A text editor.
 
-See specific instructions for your operating system below. You may use a different
-install method if you feel comfortable doing so (like compiling from source). Make sure
-you have the latest GMT source
-[from the *master* branch on GitHub](https://github.com/GenericMappingTools/gmt).
+**We will use features of GMT that are being introduced in GMT 6.** Showing up to the
+workshop with a GMT 5 installation could result in delays for you or not being able to
+fully participate in the tasks we have planned for the short course!
+
+See specific instructions for your operating system below.
 
 
 ## Need help?
@@ -37,14 +43,21 @@ Key things you need to tell us so that we can help you:
 
 ## Linux
 
-You will need to build from source.  You can either download the
-6.0.0rc2 tarball (plus GSHHG and DCW) from the GMT download site at
-http://gmt.soest.hawaii.edu/projects/gmt/wiki/Download and follow
-the BUILDING instructions at https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md.
-Your Linux software manager can be used to install all prerequisites and run-time requirements.
-**NOTE:** We will use features of GMT that are being introduced in GMT 6.  If you
-show up with a GMT 5 installation then you will not be able to participate in the
-tasks we have planned for the short course!
+There are 2 options for installing GMT 6.0.0rc2:
+
+1. Use the [conda package manager](https://conda.io/en/latest/) to install
+   binaries for GMT and all dependencies.
+2. Build GMT from source and install dependencies from your system package manager
+
+### Installing with conda
+
+### Building from source
+
+Follow the
+["Building from source" instructions](https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md)
+at the GMT repository. Your Linux software manager can be used to install all
+prerequisites and run-time requirements (there are instructions for different
+distributions).
 
 ## macOS
 
