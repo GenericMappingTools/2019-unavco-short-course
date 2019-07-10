@@ -47,26 +47,26 @@ to ask for help:
 | **Day 1**   | | |
 |:------------|:----------|:-------------|
 | 08:30-09:00 | *Breakfast*     | 30 min |
-| 09:00-09:15 | *Introductions* | 15 min |
-| 09:15-09:30 | *Overview*      | 15 min |
-| 09:30-10:00 | *Install help*  | 30 min |
+| 09:00-09:15 | Introductions | 15 min |
+| 09:15-09:30 | Overview      | 15 min |
+| 09:30-10:00 | Install help  | 30 min |
 | 10:00-10:15 | *Break*         | 15 min |
-| 10:15-12:00 | *GMT Basics*    | 105 min |
+| 10:15-12:00 | GMT Basics    | 105 min |
 | 12:00-01:30 | *Lunch*      | 90 min |
-| 01:30-03:15 | *Symbols and lines*      | 105 min |
+| 01:30-03:15 | Symbols and lines      | 105 min |
 | 03:15-03:30 | *Break*         | 15 min |
-| 03:30-04:45 | *Grids and images*      | 105 min |
-| 04:45-05:00 | *Wrap up*         | 15 min |
+| 03:30-04:45 | Grids and images      | 105 min |
+| 04:45-05:00 | Wrap up         | 15 min |
 | **Day 2** | | |
 | 08:30-09:00 | *Breakfast*     | 30 min |
-| 09:00-10:30 | *Seismology* | 90 min |
+| 09:00-10:30 | Seismology | 90 min |
 | 10:30-10:45 | *Break*      | 15 min |
-| 10:45-12:00 | *Geodesy*  | 75 min |
+| 10:45-12:00 | Geodesy  | 75 min |
 | 12:00-01:30 | *Lunch*      | 90 min |
-| 01:30-03:00 | *Animations*      | 90 min |
+| 01:30-03:00 | Animations      | 90 min |
 | 03:00-03:15 | *Break*         | 15 min |
-| 03:15-04:45 | *Final projects*      | 90 min |
-| 04:45-05:00 | *Wrap up*         | 15 min |
+| 03:15-04:45 | Final projects      | 90 min |
+| 04:45-05:00 | Wrap up         | 15 min |
 
 ## License
 
