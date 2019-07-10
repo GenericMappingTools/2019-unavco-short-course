@@ -50,7 +50,7 @@ Key things you need to tell us so that we can help you:
 There are 2 options for installing GMT 6.0.0rc2:
 
 1. Use the [conda package manager](https://conda.io/en/latest/) to install
-   binaries for GMT and all dependencies.
+   binaries for GMT and all dependencies (**recommended**).
 2. Build GMT from source and install dependencies from your system package manager
 
 ### Installing with conda
