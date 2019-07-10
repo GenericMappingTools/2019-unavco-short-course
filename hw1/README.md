@@ -53,7 +53,7 @@ that you get the correct output.
    ```
 
    This should produce 2 files called `count.mp4` and `count.webm` in the
-   `2019-unavco-course/hw1` folder. To open the mp4 movie (replace with `.webm` for
+   `2019-unavco-course/hw1` folder. To open the mp4 movie (replace with `.webm`
    if the mp4 doesn't work):
 
    * Mac: run `open count.mp4`
