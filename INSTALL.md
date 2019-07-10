@@ -25,7 +25,11 @@ and other software that will be used. Here is a summary of what you'll need:
 workshop with a GMT 5 installation could result in delays for you or not being able to
 fully participate in the tasks we have planned for the short course!
 
-See specific instructions for your operating system below.
+See specific instructions for your operating system below:
+
+* [Linux](#linux)
+* [Mac](#mac)
+* [Windows](#windows)
 
 
 ## Need help?
