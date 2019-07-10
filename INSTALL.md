@@ -114,6 +114,18 @@ Make sure you also [have a text editor installed](#install-a-text-editor).
 
 ## Windows
 
+Before installing GMT, you will need access to a UNIX style terminal with a
+[bash shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) for GMT scripting.
+Linux and Mac usually come with one installed but Windows users aren't so lucky.
+To install a terminal with a bash shell on Windows:
+
+1. Download and install Git-for-Windows `Git-2.22.0-64-bit.exe` from
+   [their official website](https://gitforwindows.org/).
+   There are
+   [video instructions for installing](https://www.youtube.com/watch?v=339AEqk9c-8)
+   provided by [Software Carpentry](https://software-carpentry.org/)
+2. In this course, when you see/hear "Terminal" you should open the "Git Bash" program.
+
 There are 3 options for installing GMT 6.0.0rc2 on Windows:
 
 1. Use the GMT Windows installer and install Ghostscript and ffmpeg separately
