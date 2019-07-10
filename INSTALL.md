@@ -55,6 +55,23 @@ There are 2 options for installing GMT 6.0.0rc2:
 
 ### Installing with conda
 
+1. Download and install the [Python 3.7 version of Miniconda](https://conda.io/en/latest/miniconda.html).
+   This will give you access to the conda package manager. **Make sure you select to
+   have conda added to your `PATH` when asked by the installer**. **Note**: if you have
+   the Anaconda Python distribution installed, you won't need to do this step.
+2. Install GMT 6.0.0rc2 and its dependencies (including ghostscript and gdal) by running
+   the following in a terminal:
+
+```
+conda install gmt=6.0.0rc2 -c conda-forge/label/dev -c conda-forge
+```
+
+3. Install ffmpeg using conda by running the following in a terminal:
+
+```
+conda install ffmpeg -c conda-forge
+```
+
 ### Building from source
 
 Follow the
@@ -62,6 +79,7 @@ Follow the
 at the GMT repository. Your Linux software manager can be used to install all
 prerequisites and run-time requirements (there are instructions for different
 distributions).
+
 
 ## macOS
 
@@ -77,6 +95,7 @@ If you don't have a Unix-tool manager (macports, fink, homebrew) we recommend
 you start with homebrew to install all the prerequisites, run-time tools, and
 build GMT itself.  There are also precompiled macOS executables for ffmpeg at
 https://ffmpeg.zeranoe.com/builds.
+
 
 ## Windows
 
