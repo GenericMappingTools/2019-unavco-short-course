@@ -25,6 +25,23 @@ basic conventions of using GMT, such as plotting grids, images, and vector data
 (points, lines, polygons). Labs will include both processing and mapping of
 various data sets relevant to geodesy.
 
+## Installing
+
+Participants will need to install some software for the workshop.
+Please follow
+[these instructions](INSTALL.md)
+**before the workshop**.
+
+## Need help?
+
+If have any trouble installing or questions about the course, there are a few you ways
+to ask for help:
+
+* Open an *Issue* on this repository by
+  [clicking here](https://github.com/GenericMappingTools/2019-unavco-course/issues/new).
+  You'll need a GitHub account to do this.
+* Post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2019-unavco-course)
+
 ## Schedule
 
 |  **When?**  | **Topic** | **Duration** |
@@ -53,23 +70,6 @@ various data sets relevant to geodesy.
 | 03:00-03:15 | *Break*         | 15 min |
 | 03:15-04:45 | *Final projects*      | 90 min |
 | 04:45-05:00 | *Wrap up*         | 15 min |
-
-## Installing
-
-Participants will need to install some software for the workshop.
-Please follow
-[these instructions](https://github.com/GenericMappingTools/2019-unavco-course/blob/master/INSTALL.md)
-**before the workshop**.
-
-## Need help?
-
-If have any trouble installing or questions about the course, there are a few you ways
-to ask for help:
-
-* Open an *Issue* on this repository by
-  [clicking here](https://github.com/GenericMappingTools/2019-unavco-course/issues/new).
-  You'll need a GitHub account to do this.
-* Post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2019-unavco-course)
 
 ## License
 
