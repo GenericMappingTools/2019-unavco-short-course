@@ -104,7 +104,7 @@ Make sure you also [have a text editor installed](#install-a-text-editor).
    can use to install our dependencies)
 2. Download and install the bundle `gmt-6.0.0rc2-darwin-x86_64.dmg` from the
    [GMT 6.0.0rc2 release page](https://github.com/GenericMappingTools/gmt/releases/tag/6.0.0rc2)
-3. Install ghostscript, gdal, and ffmpeg by running the following in a terminal (open
+3. Install Ghostscript, GDAL, and ffmpeg by running the following in a terminal (open
    the "Terminal" app, type this in, and hit *Enter*):
 
    ```
