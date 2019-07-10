@@ -44,9 +44,8 @@ to ask for help:
 
 ## Schedule
 
-|  **When?**  | **Topic** | **Duration** |
-|:------------|:----------|:-------------|
 | **Day 1**   | | |
+|:------------|:----------|:-------------|
 | 08:30-09:00 | *Breakfast*     | 30 min |
 | 09:00-09:15 | *Introductions* | 15 min |
 | 09:15-09:30 | *Overview*      | 15 min |
@@ -58,9 +57,7 @@ to ask for help:
 | 03:15-03:30 | *Break*         | 15 min |
 | 03:30-04:45 | *Grids and images*      | 105 min |
 | 04:45-05:00 | *Wrap up*         | 15 min |
-|  | |
 | **Day 2** | | |
-|  | | |
 | 08:30-09:00 | *Breakfast*     | 30 min |
 | 09:00-10:30 | *Seismology* | 90 min |
 | 10:30-10:45 | *Break*      | 15 min |
