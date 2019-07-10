@@ -62,15 +62,15 @@ There are 2 options for installing GMT 6.0.0rc2:
 2. Install GMT 6.0.0rc2 and its dependencies (including ghostscript and gdal) by running
    the following in a terminal:
 
-```
-conda install gmt=6.0.0rc2 -c conda-forge/label/dev -c conda-forge
-```
+   ```
+   conda install gmt=6.0.0rc2 -c conda-forge/label/dev -c conda-forge
+   ```
 
 3. Install ffmpeg using conda by running the following in a terminal:
 
-```
-conda install ffmpeg -c conda-forge
-```
+   ```
+   conda install ffmpeg -c conda-forge
+   ```
 
 ### Building from source
 
