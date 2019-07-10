@@ -19,7 +19,7 @@ and other software that will be used. Here is a summary of what you'll need:
   vector geospatial data formats.
 * [ffmpeg](https://ffmpeg.org/): Video creating and conversion software used to make GMT
   animations.
-* A text editor.
+* A text editor (see [instructions below](#install-a-text-editor)).
 
 **We will use features of GMT that are being introduced in GMT 6.** Showing up to the
 workshop with a GMT 5 installation could result in delays for you or not being able to
@@ -50,14 +50,20 @@ Key things you need to tell us so that we can help you:
 There are 2 options for installing GMT 6.0.0rc2:
 
 1. Use the [conda package manager](https://conda.io/en/latest/) to install
-   binaries for GMT and all dependencies (**recommended**).
-2. Build GMT from source and install dependencies from your system package manager
+   binaries for GMT and all dependencies (**recommended**)
+2. Build GMT from source and install dependencies from your system package manager (see
+   [instructions below](#building-gmt-from-source))
+
+Unfortunately, you cannot use your system package manager to install GMT because this
+course will require the latest version, which is not available on most distributions.
+
+Most Linux distros come with a text editor installed.
 
 ### Installing with conda
 
-1. Download and install the [Python 3.7 version of Miniconda](https://conda.io/en/latest/miniconda.html).
+1. Download and install the [Python **3.7** version of Miniconda](https://conda.io/en/latest/miniconda.html).
    This will give you access to the conda package manager. **Make sure you select to
-   have conda added to your `PATH` when asked by the installer**. **Note**: if you have
+   have conda added to your `PATH` when asked by the installer**. If you have
    the Anaconda Python distribution installed, you won't need to do this step.
 2. Install GMT 6.0.0rc2 and its dependencies (including ghostscript and gdal) by running
    the following in a terminal:
@@ -72,35 +78,71 @@ There are 2 options for installing GMT 6.0.0rc2:
    conda install ffmpeg -c conda-forge
    ```
 
-### Building from source
 
-Follow the
-["Building from source" instructions](https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md)
-at the GMT repository. Your Linux software manager can be used to install all
-prerequisites and run-time requirements (there are instructions for different
-distributions).
+## Mac
 
+There are 3 options for installing GMT 6.0.0rc2 on Mac:
 
-## macOS
+1. Use the GMT bundle installer and install dependencies separately using Homebrew
+   (**recommended**)
+2. Use the [conda package manager](https://conda.io/en/latest/) to install
+   binaries for GMT and all dependencies
+   (follow the same [instructions for conda on Linux](#installing-with-conda))
+3. Build GMT from source and install dependencies separately (see
+   [instructions below](#building-gmt-from-source))
 
-You can either use the macOS installer from the download site at
-http://gmt.soest.hawaii.edu/projects/gmt/wiki/Download or you can
-build from source (see Linux above).  If you install from the bundle
-then you will also need to separately install gs, ffmpeg, and gdal executables.
-If you install from source then you can either download the
-6.0.0rc2 tarball (plus GSHHG and DCW) from the GMT download site at
-http://gmt.soest.hawaii.edu/projects/gmt/wiki/Download and follow
-the BUILDING instructions at https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md.
-If you don't have a Unix-tool manager (macports, fink, homebrew) we recommend
-you start with homebrew to install all the prerequisites, run-time tools, and
-build GMT itself.  There are also precompiled macOS executables for ffmpeg at
-https://ffmpeg.zeranoe.com/builds.
+Make sure you also [have a text editor installed](#install-a-text-editor)).
+
+### Using the bundle installer and Homebrew
+
+1. Download and install [Homebrew](https://brew.sh/) (a package manager for Mac that we
+   can use to install our dependencies)
+2. Download and install the bundle `gmt-6.0.0rc2-darwin-x86_64.dmg` from the
+   [GMT 6.0.0rc2 release page](https://github.com/GenericMappingTools/gmt/releases/tag/6.0.0rc2)
+3. Install ghostscript, gdal, and ffmpeg by running the following in a terminal (open
+   the "Terminal" app, type this in, and hit *Enter*):
+
+   ```
+   brew install gdal ghostscript ffmpeg
+   ```
 
 
 ## Windows
 
-If you plan to run GMT on Windows (this probably means you are not attending
-the GMTSAR short course later in the week) then you need use the 6.0.0rc2 Windows installer
-available at http://gmt.soest.hawaii.edu/projects/gmt/wiki/Download.  It will install
-GMT, GSHHG, DCW, and GDAL.  However, you will still need to install gswin64c and ffmpeg.
-There are precompiled Windows executables for ffmpeg at https://ffmpeg.zeranoe.com/builds.
+There are 3 options for installing GMT 6.0.0rc2 on Windows:
+
+1. Use the GMT Windows installer and install Ghostscript and ffmpeg separately
+   (**recommended**)
+2. Use the [conda package manager](https://conda.io/en/latest/) to install
+   binaries for GMT and all dependencies
+   (follow the same [instructions for conda on Linux](#installing-with-conda))
+3. Build GMT from source and install dependencies separately (see
+   [instructions below](#building-gmt-from-source))
+
+Make sure you also [have a text editor installed](#install-a-text-editor)).
+
+### Using the Windows installer
+
+1. Download and install the GMT windows installer `gmt-6.0.0rc2-win64.exe` from the
+   [GMT 6.0.0rc2 release page](https://github.com/GenericMappingTools/gmt/releases/tag/6.0.0rc2)
+2. Download and install Ghostscript AGPL Release [from the official website](https://ghostscript.com/download/gsdnld.html)
+3. Download and install ffmpeg by [following these instructions](https://www.wikihow.com/Install-FFmpeg-on-Windows)
+   (including "Enabling FFmpeg in the Command Line")
+
+
+## Building GMT from source
+
+Follow the
+["Building from source" instructions](https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md)
+from the GMT repository.
+
+Other dependencies
+
+
+## Install a text editor
+
+If you don't yet have one, you'll need to install a
+[text editor](https://en.wikipedia.org/wiki/Text_editor).
+We recommend installing the "Stable" version of [Visual Studio Code](https://code.visualstudio.com/)
+on Linux, Mac, or Windows.
+Installers and instructions are available on their website.
