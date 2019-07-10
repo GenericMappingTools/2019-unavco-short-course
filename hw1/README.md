@@ -31,6 +31,7 @@
 
    A window should pop up with a colored relief map of northern Africa. It should look
    like this:
+
    ![`2019-unavco-course/hw1/output/test1.pdf`](output/test1.png)
 6. Run the [`test_2.sh`](test_2.sh) script:
 
@@ -45,5 +46,7 @@
    * Linux: run `xdg-open count.mp4`
    * Windows: run `explorer count.mp4`
 
-   The result should look like this:
+   The result should be an animation with numbers counting from 0 to 24 that looks like
+   this:
+
    ![`2019-unavco-course/hw1/output/count.mp4`](output/count.gif)
