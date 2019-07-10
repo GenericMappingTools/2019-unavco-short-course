@@ -34,8 +34,8 @@ Please follow
 
 ## Need help?
 
-If have any trouble installing or questions about the course, there are a few you ways
-to ask for help:
+If have any trouble installing or questions about the course/homeworks, there are a few
+you ways to ask for help:
 
 * Open an *Issue* on this repository by
   [clicking here](https://github.com/GenericMappingTools/2019-unavco-course/issues/new).

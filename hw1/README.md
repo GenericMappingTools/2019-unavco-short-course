@@ -2,6 +2,19 @@
 
 **Goal**: Install GMT and check that everything is correctly setup in your computer.
 
+Follow these steps to setup your computer with GMT and other software needed for the
+workshop and check that everything is working. You'll run some GMT scripts and check
+that you get the correct output.
+
+**If you have any questions/problems**:
+
+* Open an *Issue* on this repository by
+  [clicking here](https://github.com/GenericMappingTools/2019-unavco-course/issues/new).
+  You'll need a GitHub account to do this.
+* Alternatively, post to our [Gitter chatroom](https://gitter.im/GenericMappingTools/2019-unavco-course)
+
+## Tasks
+
 0. Fill out the following survey so that we can better prepare for the workshop:
    https://forms.gle/1e8kBsN22KSjhioN9
 1. Follow the [intall instructions](../INSTALL.md) to setup your computer.
@@ -39,8 +52,9 @@
    ./test_2.sh
    ```
 
-   This should produce a file called `count.mp4` in the `2019-unavco-course/hw1` folder.
-   To open the movie:
+   This should produce 2 files called `count.mp4` and `count.webm` in the
+   `2019-unavco-course/hw1` folder. To open the mp4 movie (replace with `.webm` for
+   if the mp4 doesn't work):
 
    * Mac: run `open count.mp4`
    * Linux: run `xdg-open count.mp4`
