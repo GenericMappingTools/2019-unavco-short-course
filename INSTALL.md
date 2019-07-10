@@ -96,7 +96,7 @@ There are 3 options for installing GMT 6.0.0rc2 on Mac:
 3. Build GMT from source and install dependencies separately (see
    [instructions below](#building-gmt-from-source))
 
-Make sure you also [have a text editor installed](#install-a-text-editor)).
+Make sure you also [have a text editor installed](#install-a-text-editor).
 
 ### Using the bundle installer and Homebrew
 
@@ -124,7 +124,7 @@ There are 3 options for installing GMT 6.0.0rc2 on Windows:
 3. Build GMT from source and install dependencies separately (see
    [instructions below](#building-gmt-from-source))
 
-Make sure you also [have a text editor installed](#install-a-text-editor)).
+Make sure you also [have a text editor installed](#install-a-text-editor).
 
 ### Using the Windows installer
 
