@@ -19,7 +19,7 @@ and other software that will be used. Here is a summary of what you'll need:
   vector geospatial data formats.
 * [ffmpeg](https://ffmpeg.org/): Video creating and conversion software used to make GMT
   animations.
-* A text editor (see [instructions below](#install-a-text-editor)).
+* A text editor of your choice (see [instructions below](#install-a-text-editor)).
 
 **We will use features of GMT that are being introduced in GMT 6.** Showing up to the
 workshop with a GMT 5 installation could result in delays for you or not being able to
@@ -59,9 +59,10 @@ There are 2 options for installing GMT 6.0.0rc2:
    [instructions below](#building-gmt-from-source))
 
 Unfortunately, you cannot use your system package manager to install GMT because this
-course will require the latest version, which is not available on most distributions.
+course requires GMT 6, which is not available on most distributions.
 
-Most Linux distros come with a text editor installed.
+Most Linux distributions come with a text editor installed. You may also
+[install Visual Studio Code](#install-a-text-editor) is you want but it is not required.
 
 ### Installing with conda
 
@@ -145,8 +146,9 @@ Other dependencies
 
 ## Install a text editor
 
-If you don't yet have one, you'll need to install a
-[text editor](https://en.wikipedia.org/wiki/Text_editor).
-We recommend installing the "Stable" version of [Visual Studio Code](https://code.visualstudio.com/)
-on Linux, Mac, or Windows.
+You'll need a [text editor](https://en.wikipedia.org/wiki/Text_editor) to write GMT
+scripts.
+Any editor is fine and may use your preferred one.
+If you don't have one, we recommend installing the "Stable" version of [Visual Studio
+Code](https://code.visualstudio.com/) on Linux, Mac, or Windows.
 Installers and instructions are available on their website.
