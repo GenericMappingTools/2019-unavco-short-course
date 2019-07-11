@@ -128,11 +128,16 @@ To install a terminal with a bash shell on Windows:
 2. In this course, when you see/hear "Terminal" you should open the "Git Bash" program.
 3. Download and install Ghostscript gs926aw64.exe
    [from the official website](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs926)
-3. Download and install the GMT windows installer from
+4. Download and install the GMT windows installer from
    [gmt-6.0.0_2019.07.10-win64.exe](http://w3.ualg.pt/~jluis/mirone/gmt-6.0.0_2019.07.10-win64.exe)
    It comes with GDAL and FFMPEG pre installed.
 
 Make sure you also [have a text editor installed](#install-a-text-editor).
+
+## Building GMT from source
+
+Follow the ["Building from source" instructions](https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md)
+from the GMT repository.
 
 ## Install a text editor
 
