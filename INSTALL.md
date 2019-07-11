@@ -126,34 +126,11 @@ To install a terminal with a bash shell on Windows:
    [video instructions for installing](https://www.youtube.com/watch?v=339AEqk9c-8)
    provided by [Software Carpentry](https://software-carpentry.org/)
 2. In this course, when you see/hear "Terminal" you should open the "Git Bash" program.
-
-There are 3 options for installing GMT 6.0.0rc2 on Windows:
-
-1. Use the GMT Windows installer and install Ghostscript and ffmpeg separately
-   (**recommended**)
-2. Use the [conda package manager](https://conda.io/en/latest/) to install
-   binaries for GMT and all dependencies
-   (follow the same [instructions for conda on Linux](#installing-with-conda))
-3. Build GMT from source and install dependencies separately (see
-   [instructions below](#building-gmt-from-source))
+3. Download and install the GMT windows installer from
+   [gmt-6.0.0_2019.07.10-win64.exe](http://w3.ualg.pt/~jluis/mirone/gmt-6.0.0_2019.07.10-win64.exe)
+   It comes with GDAL and FFMPEG pre installed.
 
 Make sure you also [have a text editor installed](#install-a-text-editor).
-
-### Using the Windows installer
-
-1. Download and install the GMT windows installer `gmt-6.0.0rc2-win64.exe` from the
-   [GMT 6.0.0rc2 release page](https://github.com/GenericMappingTools/gmt/releases/tag/6.0.0rc2)
-2. Download and install Ghostscript `gs926aw64.exe` [from the official website](https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/tag/gs926)
-3. Download and install ffmpeg by [following these instructions](https://www.wikihow.com/Install-FFmpeg-on-Windows)
-   (including "Enabling FFmpeg in the Command Line")
-
-
-## Building GMT from source
-
-Follow the
-["Building from source" instructions](https://github.com/GenericMappingTools/gmt/blob/master/BUILDING.md)
-from the GMT repository.
-
 
 ## Install a text editor
 
